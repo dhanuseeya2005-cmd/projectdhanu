@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Fixed animation area */
+.scroll-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #000;
+}
+
+/* Canvas full screen */
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+/* Spacer creates scroll length */
+.spacer {
+  height: 400vh; /* adjust for scroll speed */
+}
